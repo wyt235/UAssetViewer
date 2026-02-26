@@ -1,0 +1,2 @@
+# UAssetViewer
+基于开源的UAssetAPI实现的工具，可以在不打开编辑器的情况下，来直接读取DataTable和StringTable的内容
