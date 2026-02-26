@@ -1,0 +1,17 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+## 测试资产（不入库）
+TestAssets/*.uasset
+TestAssets/*.uexp
+TestAssets/Baseline/
+
+## 验证结果
+Results/
+
+## 临时文件
+_test_*

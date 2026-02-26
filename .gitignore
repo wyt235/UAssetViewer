@@ -1,0 +1,128 @@
+## ============================================================
+## .gitignore for UAsset查看计划V2
+## .NET / WPF / C# Solution
+## ============================================================
+
+## ---------- Build outputs ----------
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+## ---------- Publish output ----------
+publish/
+**/PublishProfiles/
+
+## ---------- NuGet ----------
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+
+## ---------- Visual Studio ----------
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+## ---------- VS Code ----------
+.vscode/
+
+## ---------- Rider / JetBrains ----------
+.idea/
+*.sln.iml
+
+## ---------- .NET / MSBuild ----------
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.ipch
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+*.ncb
+*.opensdf
+*.sdf
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+## ---------- .NET Specific ----------
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.ipch
+
+## ---------- Test results ----------
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+TestResult.xml
+
+## ---------- User-specific files ----------
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## ---------- OS generated ----------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+.DS_Store
+
+## ---------- Test assets (large binary UAsset files) ----------
+# Uncomment the line below if you do NOT want to track test .uasset/.uexp files
+# *.uasset
+# *.uexp
+
+## ---------- Phase0 test results (generated output) ----------
+UAssetPhase0/Results/
